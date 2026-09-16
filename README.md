@@ -37,7 +37,11 @@ Vous êtes maintenant prêt à débuter le laboratoire.
 
 
 ## Démarche d'investigation avec issues
-But: Investiguer afin de corriger un programme. Vous devez alors décrire et illustrer toute la démarche que vous aurez adoptée pour atteindre cet objectif, ceci en utilisant les "issues" de GitHub. Il s'agit d'être complet, mais concis. Attention, il s'agit ici de valider une démarche d'investigation. Les justifications par la preuve des outils utilisés pour localiser puis corriger les erreurs sont plus importantes que les corrections du code en tant que tel. Vous devez documenter les bugs à l'aide d'"issues" pour ensuite en faire la correction.
+But: Investiguer afin de corriger un programme. Vous devez alors décrire et illustrer toute la démarche que vous aurez adoptée pour atteindre cet objectif
+, ceci en utilisant les "issues" de GitHub. Il s'agit d'être complet, mais concis. Attention, 
+il s'agit ici de valider une démarche d'investigation. Les justifications par la preuve des outils 
+utilisés pour localiser puis corriger les erreurs sont plus importantes que les corrections du code en tant que tel. 
+Vous devez documenter les bugs à l'aide d'"issues" pour ensuite en faire la correction.
 
 Suivre les étapes suivantes:
 1. Examiner le programme et écrire dans le fichier PROGRAMME.md quel est, à la lueur d'une première observation du code, le problème qu'est censé résoudre le programme.
