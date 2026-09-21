@@ -1,3 +1,4 @@
+Valérie Destroismaison dit Picard NIP 111192628
 # Labo de préparation pour le TP1
 
 ## Étapes préliminaires

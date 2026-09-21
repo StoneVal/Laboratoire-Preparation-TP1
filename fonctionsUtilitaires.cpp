@@ -5,7 +5,7 @@
 
 #include "fonctionsUtilitaires.h"
 #include <iostream>
-
+// Erreur bug1 documentée et corrigée.
 using namespace std;
    
 void bug_1()

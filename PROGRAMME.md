@@ -1,4 +1,5 @@
 # Labo de préparation pour le TP1
+// étudiante Valérie Destroismaisons dit Picard 11119268
 
 Quel est, à la lueur d'une première observation du code, le problème qu'est censé résoudre le programme?
 
@@ -25,7 +26,6 @@ bug_3: Évaluation des nombres paire contenu entre 0 et 9 .
 
 
 bug_4: Programme qui calcul les notes (5 notes) et retour la moyenne
-
     Le programme demande "Entrer une note: " doit être une entier 
     jusqu'on atteindre 5 note (0-1-2-3-4) notes au total, 
     ensuite il calcule la moyenne en le divisant par 5 et 
@@ -34,7 +34,6 @@ bug_4: Programme qui calcul les notes (5 notes) et retour la moyenne
 
 
 
-bug_5: Programme retourne les nombres de 0 à y , y étant 1 
-
+bug_5: Programme retourne les nombres de 0 à y , y étant 1 à p_arrêt
     Le programme retour 0 et 1 à l'écran sur deux lignes respective.
 
