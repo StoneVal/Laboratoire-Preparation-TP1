@@ -5,8 +5,7 @@
 
 #include "fonctionsUtilitaires.h"
 #include <iostream>
-// Erreur bug1 documentée et corrigée.
-using namespace std;
+using namespace std; // Erreur bug1 documentée et corrigée.
    
 void bug_1()
 {
@@ -17,6 +16,7 @@ void bug_1()
     else
         cout << "L'âge est inférieur à 65.\n";
 } 
+
 
 void bug_2()
 {
@@ -32,30 +32,18 @@ void bug_2()
 }
 
 
-
-/* bug_3: Évaluation des nombres paire contenu entre 0 et 9 .
- * 
- *  Programme qui prend les nombre de 0 à 9 et valide s'il est paire 
- *  en appliquant la formule du modulo 
- *  si le reste de la division est égale à zéro "0" , donc il affiche le "x" 
- *  qui est le nombre 0 à 9 et indique qu'il est pair. 
- *  si non il additionne un à la valeur x et le met dans la variable total
- *  à la fin du programme lorsqu'il est rendu à 9 ,
- *  il retourne à l'écran "Le programme termine et le total est <total>" ,
- *  total étant la dernier valeur évalué +1 = 10 qui est le nombre de valeur évalué.
- */
 void bug_3()
 {
-    int total{0};
+    int total = 0;
 
-    for (int x{0}; x <= 10; ++x)
+    for (int x = 0; x <= 10; x++)
         if (x % 2 == 0)
         {
-            cout << x << " pair\n";
+            cout << x << " pair" << endl;
         }
     total += x;
 
-    cout << "Le programme termine et le total est " << total << ".\n";
+    cout << "Le programme termine et le total est " << total << endl;
 }
 /* bug_4: Programme qui calcul les notes (5 notes) et retour la moyenne
  * 
