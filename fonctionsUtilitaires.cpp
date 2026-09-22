@@ -18,19 +18,21 @@ void bug_1()
         cout << "L'âge est inférieur à 65.\n";
 } 
 
-
 void bug_2()
 {
     int entier1; // déclarations
     int entier2;
-
+    // ou int somme;
     cout << "Entrer un premier entier:\n"; // affichage
     cin >> entier1; // lire un entier
     cout << "Entrer un second entier:\n"; // affichage
     cin >> entier2; // lire un entier
-    somme = entier1 + entier2; // assignation de somme
+    int somme = entier1 + entier2; // assignation de somme
     cout << "La somme est " << somme << ".\n"; // afficher somme
 }
+
+
+
 /* bug_3: Évaluation des nombres paire contenu entre 0 et 9 .
  * 
  *  Programme qui prend les nombre de 0 à 9 et valide s'il est paire 
